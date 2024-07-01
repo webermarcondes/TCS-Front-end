@@ -1,0 +1,26 @@
+/* Arquivo de estilo personalizado, por exemplo, DatePickerCustom.css */
+
+/* Estilizar o container do DatePicker */
+.react-datepicker-wrapper {
+    display: block; /* ou inline-block, dependendo do contexto */
+    width: 100%; /* ajuste conforme necessário */
+}
+
+/* Estilizar o input do DatePicker */
+.react-datepicker__input-container {
+    width: 100%; /* ajuste conforme necessário */
+}
+
+/* Estilizar o calendário do DatePicker */
+.react-datepicker {
+    font-family: 'Arial', sans-serif; /* ajuste conforme necessário */
+}
+
+/* Estilizar os dias do mês no calendário */
+.react-datepicker__day {
+    font-size: 14px; /* ajuste conforme necessário */
+    color: #333; /* ajuste conforme necessário */
+    background-color: #fff; /* ajuste conforme necessário */
+}
+
+/* Outros estilos conforme necessário */
