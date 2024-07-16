@@ -4,7 +4,7 @@ const apiUrl = process.env.REACT_APP_API_URL;
 
 const getCronograma = async (data) => {
     try {
-        const response = await axios.post(`${apiUrl}cronograma/gerarcronograma/`,
+        const response = await axios.post(`${apiUrl}gerador-cronograma/gerar-cronograma`,
             data,{
             responseType: 'blob'});
         return response; 
